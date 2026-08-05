@@ -101,13 +101,6 @@ Das Programm läuft nach dem ersten Kompilieren vollständig offline – es werd
 
 Eine ausführliche Schritt-für-Schritt-Anleitung (Voraussetzungen, Projekt öffnen, Bauen, Weitergeben als eigenständige `.exe`) liegt in [`README.md`](./README.md).
 
-Kurzfassung:
-
-1. Repository klonen
-2. `DbDMapArchiv.sln` in Visual Studio 2022 öffnen (Workload ".NET Desktop Development" erforderlich)
-3. Erstellen → Projektmappe erstellen (NuGet-Paket `SixLabors.ImageSharp` wird beim ersten Mal automatisch heruntergeladen)
-4. Starten (F5)
-
 ---
 
 <sub>Nicht offiziell mit Behaviour Interactive oder Dead by Daylight verbunden. Alle Marken- und Produktnamen gehören ihren jeweiligen Eigentümern.</sub>
