@@ -33,7 +33,6 @@
 - [Einstellungen und Hotkeys](#einstellungen-und-hotkeys)
 - [Weitere Funktionen](#weitere-funktionen)
 - [Installation](#installation)
-- [Aus dem Quellcode bauen](#aus-dem-quellcode-bauen)
 - [Technischer Aufbau](#technischer-aufbau)
 - [Webseite und Dokumentation](#webseite-und-dokumentation)
 - [Hinweise und Quellen](#hinweise-und-quellen)
@@ -290,4 +289,4 @@ Fragen, Ideen oder Fehler? Komm auf den [Discord](https://discord.gg/pJkwAQgffP)
 - DBD Tools ist ein **Community-Projekt** und kein offizielles Produkt von Behaviour Interactive. *Dead by Daylight* und die zugehörigen Namen, Bilder und Symbole gehören ihren jeweiligen Rechteinhabern.
 - Die Wiki-Texte sind aus dem Dead by Daylight Wiki zusammengefasst (CC BY-SA). Die Patchnotes stammen aus den offiziellen Steam-News.
 - „Streamer.bot“ ist ein eigenständiges Projekt und nicht mit DBD Tools verbunden.
-- Entwickelt von **Marvin (aVossyfue)**.
+- Entwickelt von **aVossyfue**.
