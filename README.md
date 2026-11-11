@@ -299,23 +299,6 @@ Einen neuen Release für das Auto-Update bereitest du wie in [`UPDATE-RELEASES.m
 - **Bibliotheken**: SixLabors.ImageSharp (WebP und GIF), Ably, Supabase.Realtime, Newtonsoft.Json
 - **Zusatzprojekte** in derselben Solution: `DbDMapArchiv.Installer`, `DbDMapArchiv.Updater`, `DbDMapArchiv.Uninstaller` und `DbDMapArchiv.Announcer`
 
-```
-DbDMapArchiv.sln
-├─ DbDMapArchiv/              Hauptprogramm
-│  ├─ Data/                   JSON-Daten: Maps, Randomizer, Wiki, Texte, Streamer.bot-Import
-│  ├─ Images/                 Map-, Perk-, Killer- und Survivor-Bilder
-│  ├─ Services/               Overlay-Server, Erkennung, Hotkeys, Freunde, Update, Sync
-│  ├─ Wiki/                   Wiki-Ansicht, Hover-Karten, Patches
-│  ├─ StreamerBotHub/         Kachel und Anleitung für Streamer.bot
-│  └─ Features/Tournaments/   Turniersystem
-├─ DbDMapArchiv.Installer/    Installer
-├─ DbDMapArchiv.Updater/      Updater
-├─ DbDMapArchiv.Uninstaller/  Uninstaller
-├─ DbDMapArchiv.Announcer/    Entwickler-Werkzeug für Mitteilungen und Freigaben
-└─ supabase/                  Edge Functions und Konfiguration
-```
-
----
 
 ## Webseite und Dokumentation
 
