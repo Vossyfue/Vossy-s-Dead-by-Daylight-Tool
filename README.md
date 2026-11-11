@@ -267,29 +267,6 @@ Das Overlay des Perk Randomizers kommt aus der Streamer.bot-Erweiterung (siehe [
 
 ---
 
-## Aus dem Quellcode bauen
-
-Voraussetzung ist das [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) unter Windows.
-
-```powershell
-# Repository klonen
-git clone https://github.com/Vossyfue/Vossy-s-Dead-by-Daylight-Tool.git
-cd Vossy-s-Dead-by-Daylight-Tool
-
-# Entwicklung: DbDMapArchiv.sln in Visual Studio 2022 öffnen und mit F5 starten
-
-# Release: Hauptprogramm, Updater und Uninstaller in einem Rutsch
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\publish-release.ps1
-
-# Installer als eigenständige .exe
-.\build-installer.ps1
-```
-
-Einen neuen Release für das Auto-Update bereitest du wie in [`UPDATE-RELEASES.md`](./UPDATE-RELEASES.md) beschrieben vor. Die Einrichtung der Online-Dienste steht in den Dateien `BUGREPORT-SETUP.md`, `DISCORD-SETUP.md`, `ACCESS-REQUEST-SETUP.md` und `UPDATE-PRIVATE-REPO-SETUP.md`.
-
----
-
 ## Technischer Aufbau
 
 - **C# / WPF / .NET 10** (`net10.0-windows`), selbstenthalten mit gebündelter Laufzeit
